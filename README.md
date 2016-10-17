@@ -47,7 +47,7 @@ Install:
 Once you have a snap you can transfer it onto a running snappy system and from
 there install it by running:
 
-     sudo snap install --force-dangerous [snap]
+     sudo snap install [snap]
 
 # Using
 
@@ -68,7 +68,7 @@ After installing the snap, as explained above, deactivate it:
 
 To build the go binary locally:
 
-    go build -o snapweb cmd/snapweb/\*.go  # This will create ./snapweb
+    go build -o snapweb cmd/snapweb/*.go  # This will create ./snapweb
 
 # Processing JavaScript and Sass
 
